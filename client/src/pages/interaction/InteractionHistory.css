@@ -1,0 +1,50 @@
+.interactionHistoryContainer {
+    margin-top: 20px;
+  }
+  
+  .interactionsTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .interactionsTable th, .interactionsTable td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .interactionsTable th {
+    background-color: #f2f2f2;
+  }
+  
+  .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .popup-content h2 {
+    margin-top: 0;
+  }
+  
+  .popup-content textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .button-group button {
+    margin-right: 10px;
+  }
+  

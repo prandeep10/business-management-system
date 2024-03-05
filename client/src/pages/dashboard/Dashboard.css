@@ -1,0 +1,28 @@
+.dashboard-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .dashboard-summary {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .summary-item {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .summary-item h2 {
+    margin-bottom: 10px;
+  }
+  
+  .summary-item p {
+    font-size: 18px;
+  }
+  

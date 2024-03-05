@@ -1,0 +1,24 @@
+/* src/styles/LeadManagement.css */
+.leadManagementContainer {
+    margin: 20px;
+  }
+  
+  .leadsTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .leadsTable th, .leadsTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .leadsTable th {
+    background-color: #f2f2f2;
+  }
+  
+  .leadsTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
